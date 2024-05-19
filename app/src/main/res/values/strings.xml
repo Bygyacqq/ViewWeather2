@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ViewWeather2</string>
+    <string name="Clave_API">8fce76c4ae639b43514e5b0ba7ff40d8</string>
+    <string name="web_service_url">http://api.openweathermap.org/data/2.5/forecast/daily?q=</string>
+    <string name="URL_invalida">URl invalida</string>
+    <string name="imagen_condición_climática">Una representación gráfica de las condiciones meteorológicas</string>
+    <string name="Alta_temperatura">Alto: %s</string>
+    <string name="Baja_temperatura">Bajo: %s</string>
+    <string name="Descripción_del_día">%1$s: %2$s</string>
+    <string name="Humedad">Humedad: %s</string>
+    <string name="Sugerencia_txt">Ingrese la ciudad (p. ej., Bogotá, Boston, MA, EE. UU.)</string>
+    <string name="Error_de_lectura">No se pueden leer los datos meteorológicos</string>
+    <string name="conectar_error">No se puede conectar a OpenWeatherMap.org</string>
+    <dimen name="fab_margin_top">90dp</dimen>
+</resources>
