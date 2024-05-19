@@ -12,4 +12,5 @@
     <string name="Error_de_lectura">No se pueden leer los datos meteorológicos</string>
     <string name="conectar_error">No se puede conectar a OpenWeatherMap.org</string>
     <dimen name="fab_margin_top">90dp</dimen>
+    <dimen name="image_side_length">50dp</dimen>
 </resources>
