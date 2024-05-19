@@ -23,7 +23,24 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         app:columnCount="3"
-        app:rowCount="2">
+        app:rowCount="2"
+        app:useDefaultMargins="true">
 
+        <TextView
+            android:id="@+id/dayTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            app:layout_column="0"
+            app:layout_columnSpan="3"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            app:layout_column="3"
+            app:layout_row="0" />
     </androidx.gridlayout.widget.GridLayout>
 </LinearLayout>
